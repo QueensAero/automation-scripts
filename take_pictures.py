@@ -1,3 +1,7 @@
+'''automates picture taking for USC 2019. Controls the camera gimbal to take pictures from
+multiple angles. Works simulatenously with "camera_pictures.bas" running on a canon camera
+with CHDK installed to take pictures at different zooms'''
+
 import MAVLink
 
 def set_servo(pin,pwm):
