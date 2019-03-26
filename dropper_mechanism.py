@@ -1,3 +1,5 @@
+'''Script to automate the dropper mechanism for competition - USC 2019 '''
+
 import MAVLink
 
 def set_servo(pin,pwm):
