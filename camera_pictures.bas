@@ -25,8 +25,6 @@ end
         shoot
         set_zoom i
         shoot
-        set_zoom o
-        shoot
 		sleep 500
     next c
 	do
