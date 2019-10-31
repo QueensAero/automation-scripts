@@ -1,9 +1,9 @@
 '''Script to automate the dropper mechanism for competition - USC 2019 '''
-
 import MAVLink
 
 def set_servo(pin,pwm):
     MAV.doCommand(MAVLink.MAV_CMD.DO_SET_SERVO,pin,pwm,0,0,0,0,0)
+
 
 
 servo_low = 9
